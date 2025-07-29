@@ -5,6 +5,7 @@ const Tasks = () => {
   return (
     <div>
         <TaskList/>
+        <button>Добавить задачу</button>
     </div>
   )
 }

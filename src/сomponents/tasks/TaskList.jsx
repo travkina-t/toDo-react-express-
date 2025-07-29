@@ -1,8 +1,14 @@
 import React from 'react'
+import classes from "./Tasklist.module.css"
+import TaskColumn from "./TaskColumn.jsx"
 
 const TaskList = () => {
   return (
-    <div>TaskList</div>
+    <div className={classes.container}>
+        <TaskColumn />
+        <TaskColumn />
+        <TaskColumn />
+    </div>
   )
 }
 
